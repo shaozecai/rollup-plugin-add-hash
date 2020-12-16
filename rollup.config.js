@@ -5,7 +5,8 @@ import { format } from 'path';
 import addHash from './rollup-plugin-add-hash.js';
 
 export default{
-    entry:'src/index.js', //入口
+    //入口
+    entry:'src/index.js',
     output: {
         file: 'build/bundle.js',
         format: 'umd'
